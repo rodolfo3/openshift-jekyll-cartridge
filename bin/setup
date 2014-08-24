@@ -1,0 +1,6 @@
+#!/bin/bash -eu
+
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+export GEM_HOME=$OPENSHIFT_JEKYLL_DIR
+$OPENSHIFT_RUBY_DIR/bin/gem --debug install jekyll
