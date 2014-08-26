@@ -10,7 +10,7 @@ Cartridge-Version: '0.0.1'
 Cartridge-Vendor: rodolfo3
 Source-Url: https://github.com/rodolfo3/openshift-jekyll-cartridge.git
 Categories:
-  - plugin
+  - embedded
 Website: http://www.jekyllrb.com
 Help-Topics:
   "Developer Center": https://www.openshift.com/developers
