@@ -1,6 +1,3 @@
 #!/bin/bash -eu
 
-source $OPENSHIFT_CARTRIDGE_SDK_BASH
-
-> $OPENSHIFT_LOG_DIR/jekyll.log
-$OPENSHIFT_RUBY_DIR/bin/gem install --debug --backtrace --verbose jekyll >> $OPENSHIFT_LOG_DIR/jekyll.log 2>> $OPENSHIFT_LOG_DIR/jekyll.log
+$OPENSHIFT_JEKYLL_DIR/bin/setup-run &> $OPENSHIFT_LOG_DIR/ruby.log
